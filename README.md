@@ -28,12 +28,13 @@ disturbing the production.
 
 ### Install the new repository
 With your development sandbox there will be a specific tank command that you can use to address
-this particular configuration. Open a shell and navigate to your sandbox. Now run the install app
-command. When you install an app, you need to choose an environment and an engine. The engine is
-the application you will be running, so either `tk-maya`, `tk-nuke` etc. The environment is a
-collection of tools that you want to run against a specific work area. In our default
-configuration, when working with Shots, the environment is called `shot_step` and
-when working with Assets, the environment is called `asset_step`.
+this particular configuration.
+1. Open a shell and navigate to your sandbox.
+2. Now run the install app command.
+3. When you install an app, you need to choose an environment and an engine.
+- The engine is the application you will be running, so either `tk-maya`, `tk-nuke` etc.
+- The environment is a collection of tools that you want to run against a specific work area.
+In our default configuration, when working with **Shots**, the environment is called `shot_step` and when working with **Assets**, the environment is called `asset_step`.
 
 ```
 > cd /your/development/sandbox
