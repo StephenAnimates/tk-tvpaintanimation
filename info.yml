@@ -1,4 +1,4 @@
-# Copyright (c) 2013 Shotgun Software Inc.
+# Copyright (c) 2015 Shotgun Software Inc.
 #
 # CONFIDENTIAL AND PROPRIETARY
 #
@@ -11,23 +11,24 @@
 # Metadata defining the behaviour and requirements for this engine
 
 # expected fields in the configuration file for this engine
-configuration:
+# configuration:
 
 # this app works in all engines - it does not contain
 # any host application specific commands
-supported_engines:
+# supported_engines:
 
-# the Shotgun fields that this engine needs in order to operate correctly
-requires_shotgun_fields:
+# the ShotGrid fields that this engine needs in order to operate correctly
+#requires_shotgun_fields:
 
 # More verbose description of this item
-display_name: "Flow Production Tracking Toolkit Starter"
-description: "Template App to quickly get up and running with the Flow Production Tracking Toolkit."
+display_name: "TVPaint Animation Pipeline Toolkit"
+description: "TVPaint Animation Pipeline Toolkit for Flow Production Tracking Toolkit (ShotGrid)"
+documentation_url: ""
 
 # Required minimum versions for this item to run
-requires_shotgun_version:
-requires_core_version: "v0.14.28"
-requires_engine_version:
+requires_shotgun_version: "v7.2.0"
+requires_core_version: "v0.19.18"
+#requires_engine_version: 
 
 # the frameworks required to run this app
-frameworks:
+#frameworks: 

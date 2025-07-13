@@ -5,12 +5,10 @@
 [![Linting](https://img.shields.io/badge/PEP8%20by-Hound%20CI-a873d1.svg)](https://houndci.com)
 
 # Welcome to the Flow Production Tracking Toolkit Starter App!
-
 This app serves as a quick way to get started when doing Toolkit App development.
 If you want to get up and running quickly, follow these simple steps:
 
 ## Step 1. Fork this Repository!
-
 First of all, fork this repo. You can fork it to your own github accout or fork it to
 an internal git server, that's totally up to you! At this time, make sure you also
 rename it to something sensible. We recommend the naming convention `tk-ENGINE-APPNAME`,
@@ -39,7 +37,6 @@ this particular configuration.
 In our default configuration, when working with **Shots**, the environment is called `shot_step` and when working with **Assets**, the environment is called `asset_step`.
 
 ```
-
 
 ```
 
@@ -85,5 +82,5 @@ Lastly, push your configuration changes to the Primary production config for the
 
 ```
 > cd /your/development/sandbox
-> ./tank push_configuration
+> tank push_configuration
 ```
